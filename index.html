@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huzaifa Quiz App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body onload="handleQuestion()">
+    <h1>Quiz App</h1>
+    <div class="quiz-container">
+
+        <div class="header">
+            <h1 id="quest-ele"></h1>
+        </div>
+
+        <div class="body">
+            <ul id="option-ele"></ul>
+        </div>
+
+        <div class="footer">
+            <p id="count">1 / 10</p>
+            <button class="btn" id="btn" onclick="nextQues()">Next</button>
+        </div>
+    </div>
+
+     <div id="resultcontainer"></div>
+  </body>
+  <script src="./app.js"></script>
+</html>
